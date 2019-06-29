@@ -58,7 +58,49 @@ nav a img {
 
 
 /* Home */
-#one {
+#home {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25pt;
+    color: black;
+}
+
+/* Menu */
+#menu {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25pt;
+    color: black;
+}
+
+.rmc-menu-wrap {
+    background-color: black;
+    text-align: left;
+    font-size: 15pt;
+    color: red;
+    margin-left: 1.5%;
+}
+
+.menu-list{
+    list-style-type: none;
+}
+#1,#2,#3,#4,#5,#6,#7{
+    display: none;
+}
+
+/* Gallery */
+#gallery {
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25pt;
+    color: black;
+}
+
+/* Contact */
+#contact {
     background-color: white;
     text-align: center;
     vertical-align: middle;

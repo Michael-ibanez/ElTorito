@@ -24,7 +24,7 @@
     <!--Main Navigation-->
     <header>
         <nav class="navbar navbar-expand-md">
-            <a href="#" class="navbar-brand"><img src="images/eltorito2.svg"></a>
+            <a href="index.html" class="navbar-brand"><img src="images/eltorito2.svg"></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,16 +41,136 @@
     </header>
     <!--Main Navigation-->
 
+    <script>
+        var divs = ["1", "2", "3", "4", "5", "6"];
+        var visibleDivId = null;
+
+        function divVisibility(divId) {
+            if (visibleDivId === divId) {
+                visibleDivId = null;
+            } else {
+                visibleDivId = divId;
+            }
+            hideNonVisibleDivs();
+        }
+
+        function hideNonVisibleDivs() {
+            var i, divId, div;
+            for (i = 0; i < divs.length; i++) {
+                divId = divs[i];
+                div = document.getElementById(divId);
+                if (visibleDivId === divId) {
+                    div.style.display = "block";
+                    div.style.backgroundColor = "#f8e08e";
+                    div.style.color = "black";
+                } else {
+                    div.style.display = "none";
+                }
+            }
+        }
+    </script>
+
 
     <!--Main Layout-->
     <main>
-        <!-- Home page -->
-        <section id="one">
+        <!-- Menu page -->
+        <section id="menu" style="padding-bottom: 0.5%;">
             <div class="container">
-                <p> Menu </p>
+                <p style="color: red; text-align: left;"> Menu </p>
+                <a href="#"><img style="min-width: 900px;max-width: 900px; padding-bottom: 1%;" src="images/bg.JPG"></a>
+                <!-- Appetizers -->
+                <div class="rmc-menu-wrap rmc-menu-list rmc-menu-1col">
+                    <div class="rmc-menu rmc-menu-1">
+                        <h2 onclick="divVisibility('1');"> Appetizers </h2>
+                        <ul class="list-unstyled" id="1">
+                            <p> Something about appetizers</p>
+                            <li id="rmc-menu-item-1001">
+                                <div class="content">
+                                    <div class="head"> asdasd</div>
+                                    <p class="desc"> asdasd</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Soups & Salads -->
+                <div class="rmc-menu-wrap rmc-menu-list rmc-menu-1col">
+                    <div class="rmc-menu rmc-menu-2">
+                        <h2 onclick="divVisibility('2');"> Soups &amp Salads </h2>
+                        <ul class="list-unstyled" id="2">
+                            <p> Something about Soups &amp Salads </p>
+                            <li id="rmc-menu-item-2001">
+                                <div class="content">
+                                    <div class="head"> asdasd</div>
+                                    <p class="desc"> asdasd</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Fajitas -->
+                <div class="rmc-menu-wrap rmc-menu-list rmc-menu-1col">
+                    <div class="rmc-menu rmc-menu-3">
+                        <h2 onclick="divVisibility('3');"> Fajitas </h2>
+                        <ul class="list-unstyled" id="3">
+                            <p> Something about Fajitas</p>
+                            <li id="rmc-menu-item-3001">
+                                <div class="content">
+                                    <div class="head"> asdasd</div>
+                                    <p class="desc"> asdasd</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Margaritas -->
+                <div class="rmc-menu-wrap rmc-menu-list rmc-menu-1col">
+                    <div class="rmc-menu rmc-menu-4">
+                        <h2 onclick="divVisibility('4');"> Margaritas </h2>
+                        <ul class="list-unstyled" id="4">
+                            <p> Something about Margaritas</p>
+                            <li id="rmc-menu-item-4001">
+                                <div class="content">
+                                    <div class="head"> asdasd</div>
+                                    <p class="desc"> asdasd</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Drinks -->
+                <div class="rmc-menu-wrap rmc-menu-list rmc-menu-1col">
+                    <div class="rmc-menu rmc-menu-5">
+                        <h2 onclick="divVisibility('5');"> Drinks </h2>
+                        <ul class="list-unstyled" id="5">
+                            <p> Something about Drinks</p>
+                            <li id="rmc-menu-item-5001">
+                                <div class="content">
+                                    <div class="head"> asdasd</div>
+                                    <p class="desc"> asdasd</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Cervezas -->
+                <div class="rmc-menu-wrap rmc-menu-list rmc-menu-1col">
+                    <div class="rmc-menu rmc-menu-6">
+                        <h2 onclick="divVisibility('6');"> Cervezas </h2>
+                        <ul class="list-unstyled" id="6">
+                            <p> Something about Cervezas</p>
+                            <li id="rmc-menu-item-0001">
+                                <div class="content">
+                                    <div class="head"> asdasd</div>
+                                    <p class="desc"> asdasd</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
-        <footer>
+        <footer >
             <div class="container">
                 <ul class="foote_bottom_ul_amrc">
                     <li><a href="index.html">Home</a></li>

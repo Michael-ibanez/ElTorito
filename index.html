@@ -1,9 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
-</html>
+<!-- Site information -->
+
+<head>
+    <title>EL Torito</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Resteraunt Website">
+    <meta name="keywords" content="EL Torito Waco Sports Bar Michael Ibanez" />
+    <meta name="author" content="Michael Ibanez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <a href="#" class="navbar-brand"><img src="images/eltorito2.svg"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active" style="color:white;padding-right:12.5%;font-size:20px;">Home</a>
+                    <a href="#" class="nav-item nav-link" style="color:white;padding-right:12.5%;font-size:20px;">Menu</a>
+                    <a href="#" class="nav-item nav-link" style="color:white;padding-right:12.5%;font-size:20px;">Gallery</a>
+                    <a href="#" class="nav-item nav-link" style="color:white;padding-right:12.5%;font-size:20px;">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Main Navigation-->
+
+
+    <!--Main Layout-->
+    <main>
+        <!-- Home page -->
+        <section id="one">
+            <div class="container">
+                <span class="name" style="min-width: 100%;">. </span>
+            </div>
+            <div>
+                <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=2021%20Bellmead%20Drive%2C%20Bellmead%2C%20TX%2C%20USA&key=AIzaSyAjgf1wTNRHYLOcSej4eJaL0kwYVPd1dXc" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <!--Main Layout-->
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"> </script>
+    <!-- Smooth Scrolling effect -->
+
+    <script type="text/javascript">
+        new TypeIt('.name', {
+                autoStart: true
+            }).type('Welcome to El Torito Sports Bar')
+            .pause(750);
+    </script>
+</body></html>

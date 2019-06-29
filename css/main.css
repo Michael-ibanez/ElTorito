@@ -37,7 +37,7 @@ main {
 }
 
 /* NavBar */
-nav{
+nav {
     background-color: black;
     opacity: 0.95;
 }
@@ -66,6 +66,65 @@ nav a img {
     color: black;
 }
 
+/*footer*/
+footer {
+    width: 100%;
+    background-color: black;
+    min-height: 150px;
+    padding: 10px 0px 25px 0px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #CCC;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.foote_bottom_ul_amrc {
+    list-style-type: none;
+    padding: 0px;
+    display: table;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+    display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+    color: #999;
+    margin: 0 12px;
+}
+
+.social_footer_ul {
+    display: table;
+    margin: 15px auto 0 auto;
+    list-style-type: none;
+}
+
+.social_footer_ul li {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.social_footer_ul li a {
+    color: #CCC;
+    border: 1px solid #CCC;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.social_footer_ul li i {
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+
 /*                              Responsiveness for tablets                                */
 
 @media screen and (max-width:860px) {}
@@ -85,6 +144,7 @@ nav a img {
         max-height: 90px;
         min-width: 150px;
     }
+
     /* End-NavBar */
 
     /* Home */

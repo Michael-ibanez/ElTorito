@@ -86,9 +86,43 @@ nav a img {
 .menu-list{
     list-style-type: none;
 }
+
+.rmc-menu{
+    margin-bottom: -0.4%;
+    padding-left: 1.5%;
+}
+
+.rmc-menu-p{
+    background-color: black;
+    color:white;
+    margin-left: -1.5%;
+    padding-left: 1.5%;
+    font-size: 15pt;
+}
+
+.rmc-menu-item{
+    border-bottom: black;
+    border-bottom-style: dashed;
+    border-bottom-width: 0.5px;
+}
+
+.head{
+    font-size: 15pt;
+}
+
+.desc{
+    font-size: 12pt;
+    margin-bottom: 1%;
+    font-style: italic;
+}
+
 #1,#2,#3,#4,#5,#6,#7{
     display: none;
+    background-color: #f8e08e;
+    color: black;
 }
+
+
 
 /* Gallery */
 #gallery {

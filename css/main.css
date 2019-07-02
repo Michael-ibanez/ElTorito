@@ -55,6 +55,13 @@ nav a img {
     margin-bottom: -7.5%;
 }
 
+.navbar-toggler-icon {
+    color: white;
+    background-color: black;
+
+}
+
+
 /* End-NavBar */
 
 
@@ -67,7 +74,7 @@ nav a img {
     color: black;
 }
 
-.ti-placeholder{
+.ti-placeholder {
     display: none;
 }
 
@@ -80,6 +87,13 @@ nav a img {
     color: black;
 }
 
+.container > a > img {
+    min-width: 1050px;
+    max-width: 1050px;
+    margin-top: -2%;
+    padding-bottom: 1%;
+}
+
 .rmc-menu-wrap {
     background-color: black;
     text-align: left;
@@ -88,53 +102,59 @@ nav a img {
     margin-left: 1.5%;
 }
 
-.menu-list{
+.menu-list {
     list-style-type: none;
 }
 
-.rmc-menu{
+.rmc-menu {
     margin-bottom: -0.4%;
     padding-top: 0.5%;
     padding-left: 1.5%;
 }
 
-.rmc-menu > h2{
+.rmc-menu > h2 {
     font-size: 18pt;
 }
 
-.rmc-menu-p{
+.rmc-menu-p {
     background-color: black;
-    color:white;
+    color: white;
     margin-left: -1.5%;
     padding-left: 1.5%;
     font-size: 15pt;
 }
 
-.rmc-menu-item{
+.rmc-menu-item {
     border-bottom: black;
     border-bottom-style: dashed;
     border-bottom-width: 0.5px;
 }
 
-.head{
+.head {
     font-size: 12pt;
-    font-weight: 300; 
+    font-weight: 300;
     font-style: normal;
 }
 
-.desc{
+.desc {
     font-size: 8.5pt;
     margin-bottom: 1%;
     font-style: italic;
 }
 
-#1,#2,#3,#4,#5,#6,#7{
+#1,
+#2,
+#3,
+#4,
+#5,
+#6,
+#7 {
     display: none;
     background-color: #f8e08e;
     color: black;
 }
 
-.list-unstyled{
+.list-unstyled {
     background-color: #f8e08e;
     color: black;
     display: none;
@@ -226,11 +246,12 @@ footer p {
 @media screen and (max-width:700px) {}
 
 /*                              Responsiveness for phones                                  */
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
     /* NavBar */
     nav > a {
         margin-left: 12.5%;
+        padding-right: 0%;
     }
 
     nav a img {
@@ -254,5 +275,46 @@ footer p {
         font-size: 20pt;
     }
 
+    .mapPoint > iframe {
+        max-width: 300px;
+    }
 
+    .container > a > img {
+        min-width: 300px;
+        max-width: 300px;
+        margin-top: -7.5%;
+        padding-bottom: 1.5%;
+    }
+
+    #menu {
+        background-color: white;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18pt;
+        color: black;
+    }
+
+    .rmc-menu > h2 {
+        font-size: 12pt;
+    }
+
+    .rmc-menu-p {
+        background-color: black;
+        color: white;
+        margin-left: -1.5%;
+        padding-left: 1.5%;
+        font-size: 10pt;
+    }
+
+    .head {
+        font-size: 8pt;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .desc {
+        font-size: 6.5pt;
+        margin-bottom: 1%;
+        font-style: italic;
+    }
 }

@@ -34,6 +34,7 @@ body,
 main {
     height: 100%;
     background-color: black;
+    font-family: Syncopate;
 }
 
 /* NavBar */
@@ -44,7 +45,7 @@ nav {
 
 nav > a {
     padding-left: 15%;
-    padding-right: 30%;
+    padding-right: 26%;
 }
 
 nav a img {
@@ -64,6 +65,10 @@ nav a img {
     vertical-align: middle;
     font-size: 25pt;
     color: black;
+}
+
+.ti-placeholder{
+    display: none;
 }
 
 /* Menu */
@@ -89,7 +94,12 @@ nav a img {
 
 .rmc-menu{
     margin-bottom: -0.4%;
+    padding-top: 0.5%;
     padding-left: 1.5%;
+}
+
+.rmc-menu > h2{
+    font-size: 18pt;
 }
 
 .rmc-menu-p{
@@ -107,11 +117,11 @@ nav a img {
 }
 
 .head{
-    font-size: 15pt;
+    font-size: 14pt;
 }
 
 .desc{
-    font-size: 12pt;
+    font-size: 8.5pt;
     margin-bottom: 1%;
     font-style: italic;
 }

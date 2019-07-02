@@ -122,6 +122,12 @@ nav a img {
     color: black;
 }
 
+.list-unstyled{
+    background-color: #f8e08e;
+    color: black;
+    display: none;
+}
+
 
 
 /* Gallery */

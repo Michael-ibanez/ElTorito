@@ -84,7 +84,7 @@ nav a img {
     background-color: black;
     text-align: left;
     font-size: 15pt;
-    color: red;
+    color: #A3292F !important;
     margin-left: 1.5%;
 }
 
@@ -117,7 +117,9 @@ nav a img {
 }
 
 .head{
-    font-size: 14pt;
+    font-size: 12pt;
+    font-weight: 300; 
+    font-style: normal;
 }
 
 .desc{
@@ -137,7 +139,6 @@ nav a img {
     color: black;
     display: none;
 }
-
 
 
 /* Gallery */

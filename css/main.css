@@ -61,7 +61,6 @@ nav a img {
 
 }
 
-
 /* End-NavBar */
 
 
@@ -77,6 +76,12 @@ nav a img {
 .ti-placeholder {
     display: none;
 }
+
+.name {
+    color: #A3292F !important;
+    padding: 17px 0px 15px 0px;
+}
+
 
 /* Menu */
 #menu {
@@ -100,6 +105,7 @@ nav a img {
     font-size: 15pt;
     color: #A3292F !important;
     margin-left: 1.5%;
+    border-radius: 2px 2px 2px 2px;
 }
 
 .menu-list {
@@ -160,6 +166,10 @@ nav a img {
     display: none;
 }
 
+.container > p {
+    color: #A3292F;
+    text-align: left;
+}
 
 /* Gallery */
 #gallery {
@@ -177,6 +187,27 @@ nav a img {
     vertical-align: middle;
     font-size: 25pt;
     color: black;
+}
+
+#contact > .container > p {
+    color: #A3292F;
+    text-align: left;
+    margin: -2% -2.5% 0 0;
+}
+
+#contact > .container {
+    padding: 20px 20px 20px 20px;
+}
+
+#contact > .container > .row {
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+    color: #A3292F;
+    opacity: 0.95;
+}
+
+#contact > .container > .row > .col-lg-12 > h5 {
+    color: white;
 }
 
 /*footer*/
@@ -286,6 +317,21 @@ footer p {
         padding-bottom: 1.5%;
     }
 
+    .name {
+        font-size: 9.5pt;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .row > .col-lg-3 > p {
+        font-size: 12pt;
+        text-align: center;
+    }
+
+    .row > .col-lg-12 {
+        padding: 0px 0px 15px 0px;
+    }
+
+    /* Menu */
     #menu {
         background-color: white;
         text-align: center;
@@ -296,6 +342,11 @@ footer p {
 
     .rmc-menu > h2 {
         font-size: 12pt;
+        text-align: center;
+    }
+
+    .rmc-menu-wrap {
+        border-radius: 20px 20px 20px 20px;
     }
 
     .rmc-menu-p {
@@ -317,4 +368,72 @@ footer p {
         margin-bottom: 1%;
         font-style: italic;
     }
+
+    .container > p {
+        color: #A3292F;
+        text-align: center;
+        font-size: 14pt;
+        padding-bottom: 2%;
+    }
+
+    /* Gallery */
+
+    /*Contact */
+    #contact > .container {
+        padding: 20px 20px 10px 20px;
+    }
+
+    #contact > .container > .row {
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    #contact > .container > .row > .col-lg-6 > h3 {
+        font-size: 14pt;
+    }
+
+    #contact > .container > .row > .col-lg-12 > h5 {
+        font-size: 11pt;
+    }
+
+    #contact > .container > p {
+        color: #A3292F;
+        text-align: center;
+        font-size: 14pt;
+        margin: -2% -2.5% 0 0;
+    }
+
+    #contact > .container > .row {
+        padding: 20px 20px 20px 20px;
+        background-color: black;
+        color: #A3292F;
+        opacity: 0.95;
+        font-size: 6pt;
+    }
+
+    #contact > .container > .row > .col-lg-12 > h5 {
+        color: white;
+    }
+
+    /* Footer */
+    .foote_bottom_ul_amrc li {
+        display: inline;
+        padding-right: 0.4%;
+    }
+
+    .foote_bottom_ul_amrc li a {
+        color: #999;
+        margin: 0 9px;
+        font-size: 9.5pt;
+    }
+
+    .container > .text-center {
+        font-size: 6.5pt;
+    }
+
+    .social_footer_ul li {
+        padding-right: 17px;
+        padding-top: 2px;
+        float: left;
+    }
+
 }
